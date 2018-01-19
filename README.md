@@ -10,4 +10,4 @@ tigertv<br/>
 <b>RED</b>
 
 cool texts has brackets
-VERSION 0.2
+VERSION 0.2.2
