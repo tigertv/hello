@@ -9,5 +9,5 @@ tigra samsung smart tv<br/>
 tigertv<br/>
 <b>RED</b>
 
-cool texts has brackets
+cool texts has brackets<br/>
 VERSION 0.2.2
