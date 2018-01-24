@@ -1,16 +1,7 @@
 # hello
 helloworld rep
 
-
-
-tigertv.ru<br/>
-text<br/>
-tigra samsung smart tv<br/>
-tigertv<br/>
-<b>RED</b>
+How to use:
 
 cool texts has brackets<br/>
 VERSION 0.5
-Added a New Feature
-Added Feature2 and Feature3
-Added a C program
