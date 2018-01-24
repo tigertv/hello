@@ -2,6 +2,9 @@
 helloworld rep
 
 How to use:
+	Go to 'src' directory
+	Run 'make' to compile the program
+	Then execute the program 'main' and you will get 'Hello World' messages
+	Here you are
 
-cool texts has brackets<br/>
 VERSION 0.5
