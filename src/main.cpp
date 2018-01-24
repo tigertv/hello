@@ -4,35 +4,34 @@
 
 using namespace std;
 
+char sss[100];
+
+/*
+unsigned int getEBP(void)
+{
+	__asm__("mov eax,ebp");
+}
+//*/
+
+char *s = "abcdef";
+char w[23] = "fghjkl";
+
 int main( )
 {
-	vector <Box*> d1;// = new vector<Box>();
-	vector <Box> d2;// = new vector<Box>();
+	//vector <Box*> d1;// = new vector<Box>();
+	//vector <Box> d2;// = new vector<Box>();
 
-	Box box1;        // Declare Box1 of type Box
-	box1.i = 5;
-	cout << "Volume of box1 : " << box1.i<<endl;
+	//Box box1;        // Declare Box1 of type Box
+	//box1.i = 5;
 
-	Box *box2 = new Box();
-	box2->i = 4;
-	cout << "Volume of box2 : " << box2->i<<endl;
+	//printf("register EBP: %x%s\n", getEBP());
 
-
-	//d.push_back(box1);
-	d1.push_back(box2);
-
-	cout << "vect: " << d1[0]->i << endl;
-	//cout << "vect: " << d[1].i << endl;
-
-	//d.push_back(box1);
-	d2.push_back(box1);
-
-	cout << "vect: " << d2[0].i << endl;
-	//cout << "vect: " << d[1].i << endl;
+	for(int i=0;i<10;i++) {
+		cout << "Hello, World!!!" << endl;
+	}
 
 
 
-	delete(box2);
 
 	return 0;
 }
