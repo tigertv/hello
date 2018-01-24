@@ -11,4 +11,8 @@ LICENSE
 LICENSE2
 README.md
 VERSION.txt
+CHANGES.txt
 filelist.txt
+Makefile
+main.c
+
