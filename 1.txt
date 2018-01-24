@@ -2,5 +2,6 @@
 (another_text)
 New_feature
 a Hot Fix
+2nd feature
 
 
