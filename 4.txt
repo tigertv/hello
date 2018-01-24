@@ -1,3 +1,0 @@
-a new one file
-a new string
-a new line
