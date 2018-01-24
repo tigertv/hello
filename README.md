@@ -10,5 +10,5 @@ tigertv<br/>
 <b>RED</b>
 
 cool texts has brackets<br/>
-VERSION 0.3
+VERSION 0.3.1
 Added a New Feature
