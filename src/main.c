@@ -12,7 +12,7 @@ char w[23] = "fghjkl";
 
 int main(void)
 {
-	printf("CPU: %x%s\n", getEBP());
+	printf("register EBP: %x%s\n", getEBP());
 	printf("Hello, World!!!\n");
 	return 0;
 }
