@@ -1,4 +1,5 @@
 #include "messagerDecorator.h"
+#include <iostream>
 
 using namespace std;
 
@@ -9,12 +10,16 @@ MessagerDecorator::MessagerDecorator(Messager messager)
 
 void MessagerDecorator::print()
 {
+	cout << "** ";
 	this->messager->print();
+	//cout << " **";
 }
 
 void MessagerDecorator::print(int i)
 {
-	this->messager->print(i);
+	for(int j=0;j<i;j++) {
+		this->print();
+	}
 }
 
 void MessagerDecorator::setMessage(string message)
