@@ -1,10 +1,8 @@
 #include <iostream>
-#include <vector>
-#include "box.h" 
+#include "messagerDecorator.h" 
+#include "messager.h" 
 
 using namespace std;
-
-char sss[100];
 
 /*
 unsigned int getEBP(void)
@@ -13,25 +11,15 @@ unsigned int getEBP(void)
 }
 //*/
 
-char *s = "abcdef";
-char w[23] = "fghjkl";
-
-int main( )
+int main()
 {
-	//vector <Box*> d1;// = new vector<Box>();
-	//vector <Box> d2;// = new vector<Box>();
+	Messager M("Hello, World");
+	M.print(5);
 
-	//Box box1;        // Declare Box1 of type Box
-	//box1.i = 5;
+	MessagerDecorator decorM(M);
+	decorM.print(5);
 
 	//printf("register EBP: %x%s\n", getEBP());
-
-	for(int i=0;i<10;i++) {
-		cout << "Hello, World!!!" << endl;
-	}
-
-
-
 
 	return 0;
 }

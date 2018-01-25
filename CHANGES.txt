@@ -1,3 +1,6 @@
-V.0.6
+v.0.7
+Helloworld with decorations 
+
+v.0.6
 Changed C program on C++
 Added many helloworld phrases
