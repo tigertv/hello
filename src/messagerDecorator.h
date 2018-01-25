@@ -10,8 +10,7 @@ class MessagerDecorator
 {
 	Messager* messager;
 public:
-	//MessagerDecorator(Messager messager);
-	MessagerDecorator();
+	MessagerDecorator(Messager messager);
 	void print();
 	void print(int times);
 	void setMessage(string message);

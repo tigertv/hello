@@ -1,16 +1,10 @@
 #include "messagerDecorator.h"
 
 using namespace std;
-/*
+
 MessagerDecorator::MessagerDecorator(Messager messager)
 {
-	this->messager = messager;
-}
-//*/
-
-MessagerDecorator::MessagerDecorator()
-{
-
+	this->messager = &messager;
 }
 
 void MessagerDecorator::print()
