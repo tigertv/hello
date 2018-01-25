@@ -5,8 +5,7 @@
 
 using namespace std;
 
-class Messager
-{
+class Messager {
 	string message;
 public:
 	Messager(string message);
@@ -14,6 +13,6 @@ public:
 	void print(int times);
 	void setMessage(string message);
 	
-};
+}
 
 #endif

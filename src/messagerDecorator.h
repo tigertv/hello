@@ -6,8 +6,7 @@
 
 using namespace std;
 
-class MessagerDecorator
-{
+class MessagerDecorator {
 	Messager* messager;
 public:
 	MessagerDecorator(Messager messager);
@@ -15,6 +14,6 @@ public:
 	void print(int times);
 	void setMessage(string message);
 	void setMessager(Messager messager);
-};
+}
 
 #endif

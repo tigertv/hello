@@ -11,8 +11,8 @@ unsigned int getEBP(void)
 }
 //*/
 
-int main()
-{
+int main() {
+
 	Messager M("Hello, World");
 	M.print(5);
 
