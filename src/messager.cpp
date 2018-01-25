@@ -11,10 +11,17 @@ Messager::Messager(string message)
 
 void Messager::print()
 {
-	for(int i=0;i<10;i++) {
-		cout << this->message << endl;
+	cout << this->message << endl;
+}
+
+void Messager::print(int i)
+{
+	// TODO: check input	
+	for(int j=0;j<i;j++) {
+		this->print();
 	}
 }
+
 
 void Messager::setMessage(string message)
 {

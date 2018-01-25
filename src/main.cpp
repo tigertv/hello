@@ -18,7 +18,7 @@ char w[23] = "fghjkl";
 int main( )
 {
 	Messager M("Hello, World");
-	M.print();
+	M.print(10);
 
 	//printf("register EBP: %x%s\n", getEBP());
 
