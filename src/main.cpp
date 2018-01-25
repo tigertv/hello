@@ -23,15 +23,10 @@ int main( )
 
 	//Box box1;        // Declare Box1 of type Box
 	//box1.i = 5;
+	Messager M("Hello, World");
+	M.print();
 
 	//printf("register EBP: %x%s\n", getEBP());
-
-	for(int i=0;i<10;i++) {
-		cout << "Hello, World!!!" << endl;
-	}
-
-
-
 
 	return 0;
 }
