@@ -13,6 +13,6 @@ public:
 	void print(int times);
 	void setMessage(string message);
 	
-}
+};
 
 #endif
