@@ -15,7 +15,7 @@ public:
 	void print();
 	void print(int times);
 	void setMessage(string message);
-	void setMessageDecorator(Messager messager);
+	void setMessager(Messager messager);
 };
 
 #endif

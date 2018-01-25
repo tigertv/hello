@@ -28,7 +28,7 @@ void MessagerDecorator::setMessage(string message)
 	this->messager->setMessage(message);
 }
 
-void MessagerDecorator::setMessageDecorator(Messager messager)
+void MessagerDecorator::setMessager(Messager messager)
 {
 	this->messager = &messager;
 }

@@ -1,4 +1,5 @@
 #include <iostream>
+#include "messagerDecorator.h" 
 #include "messager.h" 
 
 using namespace std;
@@ -18,7 +19,11 @@ char w[23] = "fghjkl";
 int main( )
 {
 	Messager M("Hello, World");
-	M.print(10);
+	M.print(5);
+
+	MessagerDecorator decorM;
+	decorM.setMessager(M);
+	decorM.print(5);
 
 	//printf("register EBP: %x%s\n", getEBP());
 
