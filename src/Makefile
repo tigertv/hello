@@ -7,8 +7,6 @@ OBJ=$(SRC:.cpp=.o)
 
 all: $(OBJ) 
 	$(CC) $(OPTS) $(OBJ) -o main
-main.o: main.cpp
-	$(CC) $(OPTS) -c main.cpp -o main.o
 %.o: %.cpp
 	$(CC) $(OPTS) -c $< -o $@ 
 clean:
