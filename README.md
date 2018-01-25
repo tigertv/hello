@@ -1,14 +1,14 @@
 # hello
 helloworld rep
 
-Description:
-	This is a 'helloworld' project
-	It just prints "HelloWorld" 10 times now.
+Description:<br/>
+	This is a 'helloworld' project<br/>
+	It just prints "HelloWorld" 10 times now.<br/>
 
-How to use:
-	Go to 'src' directory
-	Run 'make' to compile the program
-	Then execute the program 'main' and you will get 'Hello World' messages
-	Here you are
-
+How to use:<br/>
+	Go to 'src' directory<br/>
+	Run 'make' to compile the program<br/>
+	Then execute the program 'main' and you will get 'Hello World' messages<br/>
+	Here you are<br/>
+<br/>
 VERSION 0.7
