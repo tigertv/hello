@@ -3,8 +3,6 @@
 
 using namespace std;
 
-char sss[100];
-
 /*
 unsigned int getEBP(void)
 {
@@ -12,10 +10,7 @@ unsigned int getEBP(void)
 }
 //*/
 
-string s = "abcdef";
-char w[23] = "fghjkl";
-
-int main( )
+int main()
 {
 	Messager M("Hello, World");
 	M.print(10);
