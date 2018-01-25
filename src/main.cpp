@@ -13,7 +13,7 @@ unsigned int getEBP(void)
 }
 //*/
 
-char *s = "abcdef";
+string s = "abcdef";
 char w[23] = "fghjkl";
 
 int main( )
