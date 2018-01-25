@@ -7,4 +7,4 @@ How to use:
 	Then execute the program 'main' and you will get 'Hello World' messages
 	Here you are
 
-VERSION 0.5
+VERSION 0.6
