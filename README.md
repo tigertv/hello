@@ -1,6 +1,10 @@
 # hello
 helloworld rep
 
+Description:
+	This is a 'helloworld' project
+	It just prints "HelloWorld" 10 times now.
+
 How to use:
 	Go to 'src' directory
 	Run 'make' to compile the program
