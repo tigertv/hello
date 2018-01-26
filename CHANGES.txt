@@ -1,3 +1,4 @@
+Exclamation Decorator for MessagerInterface added
 Main Decorator changed, now asterisks go before and after 
 
 v.0.7
