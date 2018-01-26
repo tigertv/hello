@@ -8,13 +8,14 @@ Messager::Messager(string message) {
 }
 
 void Messager::print() {
-	cout << this->message << endl;
+	cout << this->message;
 }
 
 void Messager::print(int i) {
 	// TODO: check input	
 	for(int j=0;j<i;j++) {
 		this->print();
+		cout << endl;
 	}
 }
 

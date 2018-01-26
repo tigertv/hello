@@ -8,14 +8,15 @@ MessagerDecorator::MessagerDecorator(MessagerInterface* messager) {
 }
 
 void MessagerDecorator::print() {
-	cout << "** ";
+	cout << "*";
 	this->messager->print();
-	//cout << " **";
+	cout << "*";
 }
 
 void MessagerDecorator::print(int i) {
 	for(int j=0;j<i;j++) {
 		this->print();
+		cout << endl;
 	}
 }
 
