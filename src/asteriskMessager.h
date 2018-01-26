@@ -6,10 +6,10 @@
 
 using namespace std;
 
-class AsteriskDecorator : public MessagerInterface {
+class AsteriskMessager : public MessagerInterface {
 	MessagerInterface* messager;
 public:
-	AsteriskDecorator(MessagerInterface* messager);
+	AsteriskMessager(MessagerInterface* messager);
 
 	void print();
 	void print(int times);

@@ -3,27 +3,27 @@
 
 using namespace std;
 
-AsteriskDecorator::AsteriskDecorator(MessagerInterface* messager) {
+AsteriskMessager::AsteriskMessager(MessagerInterface* messager) {
 	this->messager = messager;
 }
 
-void AsteriskDecorator::print() {
+void AsteriskMessager::print() {
 	cout << "*";
 	this->messager->print();
 	cout << "*";
 }
 
-void AsteriskDecorator::print(int i) {
+void AsteriskMessager::print(int i) {
 	for(int j=0;j<i;j++) {
 		this->print();
 		cout << endl;
 	}
 }
 
-void AsteriskDecorator::setMessage(string message) {
+void AsteriskMessager::setMessage(string message) {
 	this->messager->setMessage(message);
 }
 
-void AsteriskDecorator::setMessager(MessagerInterface* messager) {
+void AsteriskMessager::setMessager(MessagerInterface* messager) {
 	this->messager = messager;
 }
