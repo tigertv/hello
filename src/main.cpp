@@ -18,6 +18,8 @@ int main() {
 
 	MessagerDecorator decorM(M);
 	decorM.print(5);
+	
+	delete(M);
 
 	//printf("register EBP: %x%s\n", getEBP());
 
