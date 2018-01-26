@@ -13,8 +13,8 @@ unsigned int getEBP(void)
 
 int main() {
 
-	Messager M("Hello, World");
-	M.print(5);
+	Messager *M = new Messager("Hello, World");
+	M->print(5);
 
 	MessagerDecorator decorM(M);
 	decorM.print(5);
