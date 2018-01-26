@@ -7,10 +7,10 @@
 
 using namespace std;
 
-class MessagerDecorator : public MessagerInterface {
+class AsteriskDecorator : public MessagerInterface {
 	MessagerInterface* messager;
 public:
-	MessagerDecorator(MessagerInterface* messager);
+	AsteriskDecorator(MessagerInterface* messager);
 
 	void print();
 	void print(int times);

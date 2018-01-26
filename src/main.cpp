@@ -1,5 +1,5 @@
 #include <iostream>
-#include "messagerDecorator.h" 
+#include "asteriskMessager.h" 
 #include "messager.h" 
 
 using namespace std;
@@ -16,7 +16,7 @@ int main() {
 	MessagerInterface *M = new Messager("Hello, World");
 	M->print(5);
 
-	MessagerDecorator decorM(M);
+	AsteriskDecorator decorM(M);
 	decorM.print(5);
 	
 	delete(M);
