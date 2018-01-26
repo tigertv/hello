@@ -2,10 +2,11 @@
 #define MESSAGER_H
 
 #include <string>
+#include "messagerInterface.h"
 
 using namespace std;
 
-class Messager {
+class Messager : public MessagerInterface {
 	string message;
 public:
 	Messager(string message);

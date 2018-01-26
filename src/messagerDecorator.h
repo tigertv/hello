@@ -2,18 +2,21 @@
 #define MESSAGER_DECORATOR_H
 
 #include <string>
+#include "messagerInterface.h"
 #include "messager.h"
 
 using namespace std;
 
-class MessagerDecorator {
-	Messager* messager;
+class MessagerDecorator : public MessagerInterface {
+	MessagerInterface* messager;
 public:
-	MessagerDecorator(Messager messager);
+	MessagerDecorator(MessagerInterface* messager);
+
 	void print();
 	void print(int times);
 	void setMessage(string message);
-	void setMessager(Messager messager);
+
+	void setMessager(MessagerInterface* messager);
 };
 
 #endif

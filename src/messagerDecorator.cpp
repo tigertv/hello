@@ -3,8 +3,8 @@
 
 using namespace std;
 
-MessagerDecorator::MessagerDecorator(Messager messager) {
-	this->messager = &messager;
+MessagerDecorator::MessagerDecorator(MessagerInterface* messager) {
+	this->messager = messager;
 }
 
 void MessagerDecorator::print() {
@@ -23,6 +23,6 @@ void MessagerDecorator::setMessage(string message) {
 	this->messager->setMessage(message);
 }
 
-void MessagerDecorator::setMessager(Messager messager) {
-	this->messager = &messager;
+void MessagerDecorator::setMessager(MessagerInterface* messager) {
+	this->messager = messager;
 }
