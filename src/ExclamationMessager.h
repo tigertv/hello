@@ -1,15 +1,15 @@
-#ifndef MESSAGER_DECORATOR_H
-#define MESSAGER_DECORATOR_H
+#ifndef EXCLAMATION_MESSAGER_H
+#define EXCLAMATION_MESSAGER_H
 
 #include <string>
 #include "messagerInterface.h"
 
 using namespace std;
 
-class AsteriskMessager : public MessagerInterface {
+class ExclamationMessager : public MessagerInterface {
 	MessagerInterface* messager;
 public:
-	AsteriskMessager(MessagerInterface* messager);
+	ExclamationMessager(MessagerInterface* messager);
 
 	void print();
 	void print(int times);

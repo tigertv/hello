@@ -1,5 +1,6 @@
 #include <iostream>
 #include "asteriskMessager.h" 
+#include "ExclamationMessager.h" 
 #include "messager.h" 
 
 using namespace std;
@@ -13,13 +14,18 @@ unsigned int getEBP(void)
 
 int main() {
 
-	MessagerInterface *M = new Messager("Hello, World");
-	M->print(5);
+	MessagerInterface *hello = new Messager("Hello, World");
+	hello->print(4);
 
-	AsteriskDecorator decorM(M);
-	decorM.print(5);
+	MessagerInterface *asterisk = new AsteriskMessager(hello);
+	asterisk->print(3);
 	
-	delete(M);
+	MessagerInterface *exclamation = new ExclamationMessager(hello);
+	exclamation->print(3);
+
+	delete(hello);
+	delete(asterisk);
+	delete(exclamation);
 
 	//printf("register EBP: %x%s\n", getEBP());
 
