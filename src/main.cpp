@@ -15,17 +15,25 @@ unsigned int getEBP(void)
 int main() {
 
 	MessagerInterface *hello = new Messager("Hello, World");
-	hello->print(4);
+	hello->print(2);
 
 	MessagerInterface *asterisk = new AsteriskMessager(hello);
-	asterisk->print(3);
+	asterisk->print(2);
 	
 	MessagerInterface *exclamation = new ExclamationMessager(hello);
-	exclamation->print(3);
+	exclamation->print(2);
+
+	MessagerInterface *exclamation2 = new ExclamationMessager(asterisk);
+	exclamation2->print(2);
+
+	MessagerInterface *asterisk2 = new AsteriskMessager(exclamation);
+	asterisk2->print(2);
 
 	delete(hello);
 	delete(asterisk);
+	delete(asterisk2);
 	delete(exclamation);
+	delete(exclamation2);
 
 	//printf("register EBP: %x%s\n", getEBP());
 
