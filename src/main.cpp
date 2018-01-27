@@ -36,8 +36,6 @@ int main() {
 
 	delete(hello);
 	delete(asterisk);
-	delete(hello);
-	delete(asterisk);
 	delete(asterisk2);
 	delete(asterisk3);
 	delete(exclamation);
