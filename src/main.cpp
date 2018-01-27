@@ -1,6 +1,7 @@
 #include <iostream>
 #include "asteriskMessager.h" 
 #include "ExclamationMessager.h" 
+#include "AsteriskWindowMessager.h" 
 #include "messager.h" 
 
 using namespace std;
@@ -15,6 +16,9 @@ unsigned int getEBP(void)
 int main() {
 
 	MessagerInterface *hello = new Messager("Hello, World");
+	MessagerInterface *asterisk3 = new AsteriskWindowMessager(hello);
+
+	asterisk3->print(1);
 	hello->print(2);
 
 	MessagerInterface *asterisk = new AsteriskMessager(hello);
@@ -29,9 +33,11 @@ int main() {
 	MessagerInterface *asterisk2 = new AsteriskMessager(exclamation);
 	asterisk2->print(2);
 
+
 	delete(hello);
 	delete(asterisk);
 	delete(asterisk2);
+	delete(asterisk3);
 	delete(exclamation);
 	delete(exclamation2);
 
