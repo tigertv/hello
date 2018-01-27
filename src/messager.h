@@ -7,6 +7,7 @@
 using namespace std;
 
 class Messager : public MessagerInterface {
+protected:
 	string message;
 public:
 	Messager(string message);

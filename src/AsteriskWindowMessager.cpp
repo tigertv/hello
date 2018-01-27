@@ -8,9 +8,12 @@ AsteriskWindowMessager::AsteriskWindowMessager(MessagerInterface* messager) {
 }
 
 void AsteriskWindowMessager::print() {
-	cout << "¡";
+	cout << "************************************************" << endl;
+	cout << "*";
 	this->messager->print();
-	cout << "ǃ";
+	cout << "*";
+	cout << endl;
+	cout << "************************************************";
 }
 
 void AsteriskWindowMessager::print(int i) {
