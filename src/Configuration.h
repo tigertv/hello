@@ -8,6 +8,7 @@ using namespace std;
 
 class Configuration {
 	map<std::string, std::string> text;
+	map<std::string, std::string> options;
 public:
 	Configuration(string& language);
 	string getText(string& message);
