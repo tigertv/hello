@@ -7,9 +7,11 @@
 using namespace std;
 
 class Configuration {
-	map<std::string, std::string> text;
+	map<string, string> text;
+	map<string, string> options;
+	void parseIniFile(string& file, map<string, string> &mymap);
 public:
-	Configuration(string& language);
+	Configuration(string& filepath);
 	string getText(string& message);
 };
 

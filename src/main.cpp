@@ -17,8 +17,8 @@ unsigned int getEBP(void)
 
 int main() {
 	
-	string lang = "de";
-	Configuration conf(lang);
+	string file = "config.txt";
+	Configuration conf(file);
 	string hell = "hello";
 
 	MessagerInterface *hello = new Messager(conf.getText(hell));
