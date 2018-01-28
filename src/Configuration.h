@@ -7,8 +7,7 @@
 using namespace std;
 
 class Configuration {
-	string hello;
-	map<std::string, std::string> conf;
+	map<std::string, std::string> text;
 public:
 	Configuration(string& language);
 	string getText(string& message);
