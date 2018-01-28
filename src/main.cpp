@@ -17,7 +17,7 @@ unsigned int getEBP(void)
 
 int main() {
 	
-	string lang = "de";
+	string lang = "en";
 	Configuration conf(lang);
 	string hell = "hello";
 
