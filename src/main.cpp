@@ -3,6 +3,7 @@
 #include "ExclamationMessager.h" 
 #include "AsteriskWindowMessager.h" 
 #include "messager.h" 
+#include "Configuration.h" 
 
 using namespace std;
 
@@ -13,9 +14,14 @@ unsigned int getEBP(void)
 }
 //*/
 
-int main() {
 
-	MessagerInterface *hello = new Messager("Hello, World");
+int main() {
+	
+	string lang = "de";
+	Configuration conf(lang);
+	string hell = "hello";
+
+	MessagerInterface *hello = new Messager(conf.getText(hell));
 	MessagerInterface *asterisk3 = new AsteriskWindowMessager(hello);
 
 	asterisk3->print(1);
