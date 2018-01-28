@@ -1,3 +1,4 @@
+Languages for the 'HelloWorld' message
 AsteriskWindowDecorator added
 Exclamation Decorator for MessagerInterface added
 Main Decorator changed, now asterisks go before and after 
