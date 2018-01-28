@@ -1,5 +1,4 @@
 # hello
-helloworld rep
 
 Description:<br/>
 	This is a 'helloworld' project<br/>
@@ -11,4 +10,4 @@ How to use:<br/>
 	Then execute the program 'main' and you will get 'Hello World' messages<br/>
 	Here you are<br/>
 <br/>
-VERSION 0.7
+VERSION 0.8
