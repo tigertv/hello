@@ -12,4 +12,4 @@ How to use:<br/>
 	If you want, you can change language of "HelloWorld" messages,<br/> 
 	just open file 'src/config.txt' and set a language: en(English), ru(Russian), es(Spanish) or de(German) </br>
 <br/>
-VERSION 0.8
+VERSION 0.9
