@@ -1,0 +1,15 @@
+v.0.9
+No need to recompile the program to change the language of "HelloWorld" messages
+
+v.0.8
+Languages for the 'HelloWorld' message
+AsteriskWindowDecorator added
+Exclamation Decorator for MessagerInterface added
+Main Decorator changed, now asterisks go before and after 
+
+v.0.7
+Helloworld with decorations 
+
+v.0.6
+Changed C program on C++
+Added many helloworld phrases
